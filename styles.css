@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.contendorPrincipal{
+    width: 300px;
+    margin: 0 auto;
+    margin-top: 20px;
+    padding: 10px;
+    border: 2px black solid;
+    border-radius: 10px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.labels{
+    width: 90%;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.labels label{
+    font-weight: bold;
+}
+
+.boton{
+    width: 100%;
+    margin-bottom: 12px;
+    background: lightgreen;
+    border: 2px green solid;
+    cursor: pointer;
+}
